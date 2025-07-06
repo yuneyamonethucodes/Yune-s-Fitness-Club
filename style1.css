@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.leaflet {
+  display: flex;
+  width: 100%;
+  max-width: 1000px;
+  margin: 20px auto;
+  border: 2px solid #aaa;
+  height: 400px;
+}
+
+.panel {
+  flex: 1;
+  border-right: 1px solid #ccc;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+  text-align: center;
+  overflow-y: auto;
+}
+
+.panel:last-child {
+  border-right: none;
+}
+
+.side1 {
+  border-color: #4CAF50;
+  margin-bottom: 30px;
+}
+
+.side2 {
+  border-color: #2196F3;
+}
